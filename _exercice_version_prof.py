@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def majuscule(mot):
-    liste_de_caractere = [chr(ord(lettre)-32) if lettre.islower() else lettre for lettre in mot]
-
-    return "".join(liste_de_caractere)
+    # TODO completer la fonction
+    return mot
 
 
 if __name__ == '__main__':
@@ -14,7 +13,8 @@ if __name__ == '__main__':
         'oiseau',
         'bonjour',
         'églantier',
-        'arbre'
+        'arbre',
+        'yolo'
     ]
     for i in range(len(mots)):
         mots[i] = majuscule(mots[i])
